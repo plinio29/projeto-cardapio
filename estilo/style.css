@@ -110,7 +110,6 @@ main .perfil .funcionamento{
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-    color: #1e7916;
 }
 
 main .perfil .funcionamento .funcao{
@@ -125,6 +124,29 @@ main .perfil .funcionamento .funcao{
 main .perfil .funcionamento .funcao h1{
     color: #1e7916;
     font-size: 1em;
+}
+
+main .perfil .funcionamento .funcao i{
+    color: #1e7916;
+}
+
+main .perfil .funcionamento .funcao2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 10px;
+    display: none;
+}
+
+main .perfil .funcionamento .funcao2 h1{
+    color: #791616;
+    font-size: 1em;
+}
+
+main .perfil .funcionamento .funcao2 i{
+    color: #791616;
 }
 
 main .apresentacao .localizacao{
