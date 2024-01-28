@@ -295,6 +295,16 @@ footer{
 
 @media screen and (max-width: 950px) {
 
+    header .logo-cabeca{
+        width: 15%;
+    }
+    
+    header .logo-cabeca img{
+        margin-top: 10px;
+        width: 95%;
+        margin-left: 20px;
+    }
+
     main .perfil .funcionamento{
         width: 40%;
     }
