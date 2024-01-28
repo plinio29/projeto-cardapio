@@ -27,12 +27,12 @@ header strong{
 }
 
 header .logo-cabeca{
-    width: 9%;
+    width: 100%;
 }
 
 header .logo-cabeca img{
     margin-top: 8px;
-    width: 95%;
+    width: 110px;
     margin-left: 20px;
 }
 
@@ -56,7 +56,7 @@ header .logo-cabeca{
 header .menu-cabeca{
     display: flex;
     list-style: none;
-    gap: 1.6em;
+    gap: 1em;
     margin-top: 10px;
 }
 header nav{
@@ -112,7 +112,7 @@ main .perfil .funcionamento{
     border-radius: 10px;
 }
 
-main .perfil .funcionamento .funcao{
+main .perfil .funcionamento #funcao{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -121,31 +121,30 @@ main .perfil .funcionamento .funcao{
     gap: 10px;
 }
 
-main .perfil .funcionamento .funcao h1{
+main .perfil .funcionamento #funcao h1{
     color: #1e7916;
     font-size: 1em;
 }
 
-main .perfil .funcionamento .funcao i{
+main .perfil .funcionamento #funcao i{
     color: #1e7916;
 }
 
-main .perfil .funcionamento .funcao2{
+main .perfil .funcionamento #funcao2{
     display: flex;
     width: 100%;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
     gap: 10px;
-    display: none;
 }
 
-main .perfil .funcionamento .funcao2 h1{
+main .perfil .funcionamento #funcao2 h1{
     color: #791616;
     font-size: 1em;
 }
 
-main .perfil .funcionamento .funcao2 i{
+main .perfil .funcionamento #funcao2 i{
     color: #791616;
 }
 
@@ -317,16 +316,6 @@ footer{
 
 @media screen and (max-width: 950px) {
 
-    header .logo-cabeca{
-        width: 15%;
-    }
-    
-    header .logo-cabeca img{
-        margin-top: 10px;
-        width: 95%;
-        margin-left: 20px;
-    }
-
     main .perfil .funcionamento{
         width: 40%;
     }
@@ -381,16 +370,7 @@ footer{
 @media screen and (max-width: 600px){
     /*Cabeça do site*/
     /*Config Botão*/
-    header .logo-cabeca{
-        width: 25%;
-    }
-    
-    header .logo-cabeca img{
-        margin-top: 10px;
-        width: 100%;
-        margin-left: 20px;
-    }
-
+  
     header nav #botao-mobile{
         display: flex;
         padding: 10px 10px;
