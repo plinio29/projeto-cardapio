@@ -6,10 +6,10 @@ button.addEventListener("click", function(){
 
     var container = document.getElementById('container');
 
-    if(container.style.display === "none"){
-        container.style.display = "block"
+    if(container.style.display === "block"){
+        container.style.display = "none"
     } else {
-        container.style.display = "none";
+        container.style.display = "block";
     }
 });
 
@@ -21,10 +21,10 @@ button2.addEventListener("click", function(){
 
     var container2 = document.getElementById('container2');
 
-    if(container2.style.display === "none"){
-        container2.style.display = "block"
+    if(container2.style.display === "block"){
+        container2.style.display = "none"
     } else {
-        container2.style.display = "none";
+        container2.style.display = "block";
     }
 });
 
@@ -36,10 +36,10 @@ button3.addEventListener("click", function(){
 
     var container3 = document.getElementById('container3');
 
-    if(container3.style.display === "none"){
-        container3.style.display = "block"
+    if(container3.style.display === "block"){
+        container3.style.display = "none"
     } else {
-        container3.style.display = "none";
+        container3.style.display = "block";
     }
 });
 
@@ -51,9 +51,9 @@ button4.addEventListener("click", function(){
 
     var container4 = document.getElementById('container4');
 
-    if(container4.style.display === "none"){
-        container4.style.display = "block"
+    if(container4.style.display === "block"){
+        container4.style.display = "none"
     } else {
-        container4.style.display = "none";
+        container4.style.display = "block";
     }
 });
