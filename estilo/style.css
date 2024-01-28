@@ -15,7 +15,7 @@ body{
 }
 /*Cabeça do site*/
 header{
-    height: 50px;
+    height: 60px;
     margin: auto;
     display: flex;
     width: 100%;
@@ -25,11 +25,17 @@ header{
 header strong{
     color: #ffffff;
 }
-header .logo-cabeca {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 7px;
+
+header .logo-cabeca{
+    width: 9%;
 }
+
+header .logo-cabeca img{
+    margin-top: 8px;
+    width: 95%;
+    margin-left: 20px;
+}
+
 header .menu-cabeca a{
     color: #ffffff;
     text-decoration: none;
@@ -38,6 +44,7 @@ header .menu-cabeca a{
     transition: 0.2s;
     border-radius: 5px;
 }
+
 header .menu-cabeca a:hover{
     background-color: #d81b3b;
     color: #ffff;
@@ -50,7 +57,10 @@ header .menu-cabeca{
     display: flex;
     list-style: none;
     gap: 1.6em;
-    margin-top: 7px;
+    margin-top: 10px;
+}
+header nav{
+    margin-right: 10px;
 }
 header nav #botao-mobile{
     display: none;
