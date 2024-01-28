@@ -349,6 +349,16 @@ footer{
 @media screen and (max-width: 600px){
     /*Cabeça do site*/
     /*Config Botão*/
+    header .logo-cabeca{
+        width: 25%;
+    }
+    
+    header .logo-cabeca img{
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 20px;
+    }
+
     header nav #botao-mobile{
         display: flex;
         padding: 10px 10px;
@@ -360,7 +370,7 @@ footer{
     }
     /*Config Hamburger*/
     header nav #botao-mobile #hamburger{
-        margin-top: 3px;
+        margin-top: 10px;
         display: block;
         border-top: 3px solid;
         width: 30px;
