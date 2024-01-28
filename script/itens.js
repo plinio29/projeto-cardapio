@@ -6,7 +6,11 @@ button.addEventListener("click", function(){
 
     var container = document.getElementById('container');
 
-    container.classList.toggle("hide");
+    if(container.style.display === "none"){
+        container.style.display = "block"
+    } else {
+        container.style.display = "none";
+    }
 });
 
 //barra de itens 2.
@@ -15,9 +19,13 @@ var button2 = document.getElementById('action-btn2');
 
 button2.addEventListener("click", function(){
 
-    var container = document.getElementById('container2');
+    var container2 = document.getElementById('container2');
 
-    container.classList.toggle("hide");
+    if(container2.style.display === "none"){
+        container2.style.display = "block"
+    } else {
+        container2.style.display = "none";
+    }
 });
 
 //barra de itens 3.
@@ -26,9 +34,13 @@ var button3 = document.getElementById('action-btn3');
 
 button3.addEventListener("click", function(){
 
-    var container = document.getElementById('container3');
+    var container3 = document.getElementById('container3');
 
-    container.classList.toggle("hide");
+    if(container3.style.display === "none"){
+        container3.style.display = "block"
+    } else {
+        container3.style.display = "none";
+    }
 });
 
 //barra de itens 4.
@@ -37,7 +49,11 @@ var button4 = document.getElementById('action-btn4');
 
 button4.addEventListener("click", function(){
 
-    var container = document.getElementById('container4');
+    var container4 = document.getElementById('container4');
 
-    container.classList.toggle("hide");
+    if(container4.style.display === "none"){
+        container4.style.display = "block"
+    } else {
+        container4.style.display = "none";
+    }
 });
