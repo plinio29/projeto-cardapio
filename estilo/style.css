@@ -31,7 +31,7 @@ header .logo-cabeca{
 }
 
 header .logo-cabeca img{
-    margin-top: 8px;
+    margin-top: 10px;
     width: 110px;
     margin-left: 20px;
 }
@@ -39,15 +39,21 @@ header .logo-cabeca img{
 header .menu-cabeca a{
     color: #ffffff;
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 10px;
     transition: 0.2s;
     border-radius: 5px;
+    font-size: 1.2em;
+    gap: 0.5em;
 }
 
 header .menu-cabeca a:hover{
     background-color: #d81b3b;
     color: #ffff;
+}
+
+header .menu-cabeca a p{
+    display: none;
 }
 header .logo-cabeca{
     font-size: 1.5em;
@@ -56,7 +62,7 @@ header .logo-cabeca{
 header .menu-cabeca{
     display: flex;
     list-style: none;
-    gap: 1em;
+    gap: 0.5em;
     margin-top: 10px;
 }
 header nav{
@@ -72,7 +78,7 @@ main{
 
 main .apresentacao{
     padding-top: 70px;
-    background-image: linear-gradient( to right, #d81b3b, #ff4a3d);
+    background-image: linear-gradient( to right, #d81b3b, #ff7a3d);
     /*background-color: #d81b3b;*/
     width: 100%;
     padding-bottom: 20px;
@@ -356,7 +362,7 @@ footer{
         cursor: pointer;
         text-align: center;
         background-color: #ffffff;
-        width: 90%;
+        width: 95%;
         height: 120px;
         border-radius: 10px;
         box-shadow: 5px 5px 9px #2322249a;
@@ -370,7 +376,8 @@ footer{
 @media screen and (max-width: 600px){
     /*Cabeça do site*/
     /*Config Botão*/
-  
+
+    
     header nav #botao-mobile{
         display: flex;
         padding: 10px 10px;
@@ -434,6 +441,11 @@ footer{
        border-bottom: 2px solid #d81b3b;
     }
 
+    header .menu-cabeca a p{
+        display: flex;
+    }
+  
+
     main .perfil .funcionamento{
         width: 50%;
     }
@@ -474,7 +486,7 @@ footer{
         cursor: pointer;
         text-align: center;
         background-color: #ffffff;
-        width: 90%;
+        width: 95%;
         height: 120px;
         border-radius: 10px;
         box-shadow: 5px 5px 9px #2322249a;
