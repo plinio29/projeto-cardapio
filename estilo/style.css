@@ -73,7 +73,7 @@ header nav #botao-mobile{
 }
 
 main{
-    background-color: #ffff;
+    background-color: #ebeae7;
 }
 
 main .apresentacao{
@@ -180,7 +180,7 @@ main .apresentacao .tempo-entrega{
 main .itens .barra-item{
     margin: auto;
     max-width: 79%;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
@@ -188,8 +188,8 @@ main .itens .barra-item{
     background-color: #292929;
     display: flex;
     justify-content: space-between;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     
 }
 
@@ -200,7 +200,7 @@ main .itens .barra-item h1{
 main .itens .containers{
     margin: auto;
     width: 80%;
-    background-color: #ffffff;
+    background-color: #ebeae7;
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
@@ -258,25 +258,25 @@ main .itens .containers .cards .card p{
 
 }
 
-main .itens .containers .botao{
+main .botao{
     margin-top: 40px;
     text-align: center;
 }
 
-main .itens .containers .botao button{
-    margin-bottom: 40px;
+main .botao button{
+    margin-bottom: 80px;
     border: none;
     font-size: 1.7em;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px;
-    background-color: #31db72;
-    box-shadow: 5px 5px 9px #23222471;
+    background-color: #4da735;
+    box-shadow: 2px 2px 5px #23222471;
     color: #ffff;
     cursor: pointer;
     transition: 0.2s;
 }
 
-main .itens .containers .botao button:hover{
+main .botao button:hover{
     transform: scale(1.15);
 }
 
@@ -294,7 +294,6 @@ main .itens .barra-item .botao-menu:hover{
 }
 
 footer{
-    margin-top: 70px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -304,6 +303,9 @@ footer{
 
 
 /*ID de Controle*/
+#container0{
+    display: none;
+}
 #container{
     display: none;
 }
@@ -331,7 +333,7 @@ footer{
     main .itens .barra-item{
         margin: auto;
         max-width: 90%;
-        margin-top: 20px;
+        margin-top: 30px;
         padding-top: 5px;
         padding-right: 10px;
         padding-left: 10px;
@@ -339,9 +341,6 @@ footer{
         background-color: #292929;
         display: flex;
         justify-content: space-between;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        
     }
 
     main .itens .containers{
@@ -389,6 +388,7 @@ footer{
         cursor: pointer;
         gap: 8px;
     }
+
     /*Config Hamburger*/
     header nav #botao-mobile #hamburger{
         margin-top: 10px;
@@ -397,6 +397,7 @@ footer{
         width: 30px;
         color: #ffffff;
     }
+
     #hamburger::after, #hamburger::before{
         content: '';
         display: block;
@@ -407,16 +408,20 @@ footer{
         transition: 0.3s;
         position: relative;
     }
+
     #nav.active #hamburger{
         border-top-color: transparent;
     }
+
     #nav.active #hamburger::before{
         transform: rotate(135deg);
     }
+
     #nav.active #hamburger::after{
         transform: rotate(-135deg);
         top: -7px;
     }
+
     /*Config Menu header*/
     header .menu-cabeca{
         display: block;
@@ -424,19 +429,21 @@ footer{
         width: 100%;
         top: 40px;
         right: 0px;
-        background: #363132;
+        background: #292929;
         height: 0px;
         transition: 0.6s;
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
     }
+
     #nav.active .menu-cabeca{
         height: calc(100% - 0px);
         visibility: visible;
         overflow-y: auto;
         padding-top: 40px;
     }
+
     .menu-cabeca a{
        padding: 20px 0;
        margin: 0 40px;
@@ -455,17 +462,14 @@ footer{
     main .itens .barra-item{
         margin: auto;
         max-width: 90%;
-        margin-top: 20px;
+        margin-top: 30px;
         padding-top: 5px;
         padding-right: 10px;
         padding-left: 10px;
         padding-bottom: 5px;
         background-color: #292929;
         display: flex;
-        justify-content: space-between;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        
+        justify-content: space-between;  
     }
 
     main .itens .containers{

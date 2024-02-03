@@ -1,3 +1,19 @@
+
+//barra de itens 0.
+var button = document.getElementById('action-btn0');
+
+
+button.addEventListener("click", function(){
+
+    var container0 = document.getElementById('container0');
+
+    if(container0.style.display === "block"){
+        container0.style.display = "none"
+    } else {
+        container0.style.display = "block";
+    }
+});
+
 //barra de itens 1.
 var button = document.getElementById('action-btn');
 

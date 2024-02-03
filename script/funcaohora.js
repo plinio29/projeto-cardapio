@@ -8,7 +8,7 @@ var hora = data.getHours()
 
 if (hora > 1 && hora < 17){
     funcao2.style.display = "block";
-} else if (hora > 17 && hora < 24){
+} else if (hora > 17 && hora < 25){
     funcao1.style.display = "block";
 } else {
     console.log("Erro!");
