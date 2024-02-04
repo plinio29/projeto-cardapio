@@ -78,7 +78,7 @@ main{
 
 main .apresentacao{
     padding-top: 70px;
-    background-image: linear-gradient( to right, #d81b3b, #ff7a3d);
+    background-image: linear-gradient( to right, #ff8500, #ff7900);
     /*background-color: #d81b3b;*/
     width: 100%;
     padding-bottom: 20px;
