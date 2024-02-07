@@ -218,7 +218,7 @@ main .itens .containers .cards .card{
     cursor: pointer;
     text-align: center;
     background-color: #ffffff;
-    width: 40%;
+    width: 80%;
     height: 120px;
     border-radius: 10px;
     box-shadow: 5px 5px 9px #2322249a;

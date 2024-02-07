@@ -210,15 +210,17 @@ main .itens .containers{
 main .itens .containers .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    width: 85%;
+    margin: auto;
 }
 
 main .itens .containers .cards .card{
     cursor: pointer;
     text-align: center;
     background-color: #ffffff;
-    width: 40%;
+    width: 48%;
     height: 120px;
     border-radius: 10px;
     box-shadow: 5px 5px 9px #2322249a;
@@ -226,7 +228,7 @@ main .itens .containers .cards .card{
     display: flex;
 }
 main .itens .containers .cards .card:hover{
-    transform: scale(1.10);
+    transform: scale(1.08);
 }
 
 main .itens .containers .cards .card img{
@@ -487,6 +489,7 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
+        width: 100%;
     }
     
     main .itens .containers .cards .card{
