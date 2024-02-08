@@ -245,7 +245,7 @@ main .itens .containers .cards .card .descricao{
 
 main .itens .containers .cards .card h1{
     color: #4d4d4d;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-top: 8px;
 }
 
@@ -253,7 +253,7 @@ main .itens .containers .cards .card p{
     color: #383636;
     font-size: 0.9em;
     text-align: center;
-    max-width: 95%;
+    max-width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 6px;
