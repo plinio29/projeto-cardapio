@@ -58,18 +58,3 @@ button3.addEventListener("click", function(){
         container3.style.display = "block";
     }
 });
-
-//barra de itens 4.
-var button4 = document.getElementById('action-btn4');
-
-
-button4.addEventListener("click", function(){
-
-    var container4 = document.getElementById('container4');
-
-    if(container4.style.display === "block"){
-        container4.style.display = "none"
-    } else {
-        container4.style.display = "block";
-    }
-});
