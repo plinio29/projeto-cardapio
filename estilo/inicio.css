@@ -87,6 +87,18 @@ main .apresentacao{
     box-shadow: 0px 2px 2px #29292950
 }
 
+main .apresentacao .chamativo{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    gap: 10%;
+}
+
+main .apresentacao .chamativo img{
+    max-width: 80%;
+}
+
 
 footer{
     text-align: center;
