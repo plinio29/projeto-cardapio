@@ -92,11 +92,32 @@ main .apresentacao .chamativo{
     padding-left: 10px;
     padding-right: 10px;
     justify-content: center;
-    gap: 10%;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+main .apresentacao .chamativo h1{
+    color: #ffff;
+    font-size: 1.8em;
+}
+
+main .apresentacao .chamativo .img-pfil{
+    width: 90%;
+}
+
+main .apresentacao .chamativo a button{
+    border: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    color: rgb(0, 139, 42);
 }
 
 main .apresentacao .chamativo img{
-    max-width: 80%;
+    max-width: 100%;
+    margin: auto;
 }
 
 
