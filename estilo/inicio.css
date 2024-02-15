@@ -95,6 +95,7 @@ main .apresentacao .chamativo{
     gap: 10px;
     width: 70%;
     margin: auto;
+    margin-top: 70px;
 }
 
 main .apresentacao .chamativo h1{
@@ -106,18 +107,38 @@ main .apresentacao .chamativo .img-pfil{
     width: 90%;
 }
 
+main .apresentacao .chamativo a{
+    text-decoration: none;
+}
+
 main .apresentacao .chamativo a button{
     border: none;
     font-size: 1.5em;
     border-radius: 10px;
     padding: 10px;
     margin-top: 30px;
-    color: rgb(0, 139, 42);
+    color: #4da735;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #ffff;
+    box-shadow: 2px 2px 5px #23222471;
+}
+
+main .apresentacao .chamativo a button:hover{
+    transform: scale(1.15);
 }
 
 main .apresentacao .chamativo img{
     max-width: 100%;
     margin: auto;
+}
+
+main .corpo .modelos{
+    display: flex;
+}
+
+.corpo .modelos img{
+    max-width: 10%;
 }
 
 
