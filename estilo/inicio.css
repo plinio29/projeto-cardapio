@@ -101,6 +101,7 @@ main .apresentacao .chamativo{
 main .apresentacao .chamativo h1{
     color: #ffff;
     font-size: 1.8em;
+    font-weight: 600;
 }
 
 main .apresentacao .chamativo .img-pfil{
@@ -133,12 +134,48 @@ main .apresentacao .chamativo img{
     margin: auto;
 }
 
-main .corpo .modelos{
-    display: flex;
+main .corpo{
+    max-width: 55%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
 }
 
-.corpo .modelos img{
-    max-width: 10%;
+main .corpo .modelos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+main .corpo .modelos h1{
+    font-size: 2.5em;
+    text-align: left;
+    font-weight: 600;
+} 
+main .corpo .modelos .corpo-img{
+    width: 50%;
+}
+
+main .corpo .modelos img{
+    max-width: 100%;
+}
+
+main .corpo a button{
+    border: none;
+    font-size: 1.7em;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    color: #ffffff;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #141414;
+    box-shadow: 2px 2px 5px #23222471;
+    margin-bottom: 100px;
+}
+
+main .corpo a button:hover{
+    transform: scale(1.15);
 }
 
 
