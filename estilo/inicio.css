@@ -104,10 +104,6 @@ main .apresentacao .chamativo h1{
     font-weight: 600;
 }
 
-main .apresentacao .chamativo .img-pfil{
-    width: 90%;
-}
-
 main .apresentacao .chamativo a{
     text-decoration: none;
 }
@@ -130,12 +126,12 @@ main .apresentacao .chamativo a button:hover{
 }
 
 main .apresentacao .chamativo img{
-    max-width: 100%;
+    width: 450px;
     margin: auto;
 }
 
 main .corpo{
-    max-width: 55%;
+    width: 55%;
     margin: auto;
     margin-top: 100px;
     text-align: center;
@@ -153,13 +149,10 @@ main .corpo .modelos h1{
     font-weight: 600;
     color: #1f1e1e;
 } 
-main .corpo .modelos .corpo-img{
-    width: 50%;
-}
 
-main .corpo .modelos img{
-    max-width: 80%;
-    max-height: 80%;
+main .corpo .modelos .corpo-img{
+    width: 350px;
+    height: 350px;
 }
 
 main .corpo .modelos .modelos-btn a {
@@ -210,7 +203,7 @@ main .contratos h1{
     font-size: 2em;
     text-align: center;
     padding-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 main .contratos .cards{
@@ -230,6 +223,10 @@ main .contratos .cards .card{
     padding: 20px 10px;
     box-shadow: 2px 2px 5px #23222471;
 
+}
+
+main .contratos .cards .card .plano{
+    font-size: 1.8em;
 }
 
 main .contratos .cards .card h1{
@@ -270,6 +267,44 @@ footer{
     padding-bottom: 20px;
     background-color: #292929;
     color: #cfcfcf;
+}
+
+@media screen and (max-width: 1000px){
+
+    main .apresentacao .chamativo h1{
+        color: #ffff;
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+    main .apresentacao .chamativo img{
+        width: 350px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 950px){
+
+    main .apresentacao .chamativo .img-pfil{
+        display: none;
+    }
+
+    main .corpo .modelos h1{
+        font-size: 2em;
+    }
+
+    main .corpo{
+        width: 80%;
+    }
+
+    main .corpo .modelos{
+        width: 100%;
+    }
+
+    main .corpo .modelos .corpo-img{
+        width: 340px;
+        height: 340px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -350,6 +385,69 @@ footer{
 
     header .menu-cabeca a p{
         display: flex;
+    }
+
+    main .apresentacao .chamativo{
+        width: 90%;
+    }
+
+    main .apresentacao .chamativo h1{
+        color: #ffff;
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+
+    main .apresentacao .chamativo .texto-btn{
+        text-align: center;
+    }
+
+    main .apresentacao .chamativo .texto-btn h1{
+        text-align: left;
+    }
+
+    main .apresentacao .chamativo a button{
+        font-size: 1.5em;
+        margin-top: 50px;
+        padding: 15px 50px;
+    }
+
+    main .corpo .modelos h1{
+        font-size: 1.8em;
+    }
+
+    main .corpo{
+        width: 85%;
+    }
+
+    main .corpo .modelos{
+        width: 100%;
+    }
+
+    main .corpo .modelos .corpo-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    main .corpo .modelos .modelos-btn a button{
+        display: none;
+    }
+
+    main .corpo a{
+        text-decoration: none;
+    }
+    
+    main .corpo a button{
+        display: block;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+
+    main .contratos .cards{
+        width: 85%;
+    }
+
+    main .contratos .card{
+        width: 100%;
     }
 
 }
