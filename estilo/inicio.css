@@ -101,7 +101,7 @@ main .apresentacao .chamativo{
 main .apresentacao .chamativo h1{
     color: #ffff;
     font-size: 1.8em;
-    font-weight: 600;
+    font-weight: 590;
 }
 
 main .apresentacao .chamativo a{
@@ -146,7 +146,7 @@ main .corpo .modelos{
 main .corpo .modelos h1{
     font-size: 2.5em;
     text-align: left;
-    font-weight: 600;
+    font-weight: 590;
     color: #1f1e1e;
 } 
 
@@ -274,7 +274,7 @@ footer{
     main .apresentacao .chamativo h1{
         color: #ffff;
         font-size: 1.6em;
-        font-weight: 600;
+        font-weight: 590;
     }
 
     main .apresentacao .chamativo img{
@@ -394,7 +394,7 @@ footer{
     main .apresentacao .chamativo h1{
         color: #ffff;
         font-size: 1.8em;
-        font-weight: 600;
+        font-weight: 590;
     }
 
     main .apresentacao .chamativo .texto-btn{
@@ -413,6 +413,7 @@ footer{
 
     main .corpo .modelos h1{
         font-size: 1.8em;
+        font-weight: 590;
     }
 
     main .corpo{
