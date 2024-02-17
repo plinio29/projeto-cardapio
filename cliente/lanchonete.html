@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+    <!--Link Favicon-->
+    <link rel="shortcut icon" href="/imagens/logo/icone-hamburger.ico" type="image/x-icon">
+    <!--Ícones do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/estilo/style.css">
+</head>
+<body>
+    <!--Cabeça da Página-->
+    <header>
+        <!--Logo header-->
+        <a class="logo-cabeca" href="#"><img src="/imagens/logo/LOGOTIPO-LANCHONETE.png" alt="logotipo"></a>
+
+        <!--Menu header-->
+        <nav id="nav">
+            <button id="botao-mobile"><!--Menu-->
+                <span id="hamburger"></span>
+            </button>
+            <ul class="menu-cabeca">
+                <!--facebook-->
+                <li><a href="#">
+                    <i class="bi bi-facebook"></i>
+                    <p>Lanchonete</p>
+                </a></li>
+                <!--instagram-->
+                <li><a href="#">
+                    <i class="bi bi-instagram"></i>
+                    <p>@lanchonete</p>
+                </a></li>
+                <!--Whatsapp-->
+                <li><a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                    <p>(14) 99999-9999</p>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Corpo da página-->
+    <main>
+
+        <!--Perfil da empresa-->
+        <section class="apresentacao">
+            <div class="perfil">
+                <img src="/imagens/logo/LogoHamburger2.png" alt="perfil-do-usuario">
+                <h1>Lanchonete</h1>
+                <p>@lanchonete</p>
+
+                <div class="funcionamento">
+                    <div id="funcao" class="funcao">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <h1 id="aberto-fechado">Aberto</h1>
+                    </div>
+                    <div id="funcao2" class="funcao2">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <h1 id="aberto-fechado">Fechado</h1>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="localizacao">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p>Rua das flores, 195, centro</p>
+            </div>
+            <div class="tempo-entrega">
+                <i class="bi bi-clock-fill"></i>
+                <p>Tempo médio p/ entrega: 40min</p>
+            </div>
+        </section>
+
+        <!--Barra de promoção do dia-->
+        <section class="itens">
+            <!--Promoção do dia-cardapio-->
+            <div class="barra-item">
+                <h1>Promoção do dia</h1>
+                <button id="action-btn0" class="botao-menu">
+                    <i class="bi bi-caret-down-square-fill"></i>
+                </button></div>
+            <div class="containers" id="container0">
+
+                <!--Cards-pratos-->
+                <div class="cards">
+                    
+                    <!--<div class="card">
+                        <img src="" alt="">
+                        <div class="descricao">
+                            <h1>Titulo</h1>
+                            <p>Vazio</p>
+                            <h1>Valor</h1>
+                        </div>
+                    </div>-->
+
+                    <!--<div class="card">
+                        <img src="imagens/cliente-img/lanchonete/x-salada.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>X-Salada</h1>
+                            <p>(1 ovo, alface, 2 presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div>--> 
+            </div>
+        </section>
+
+        <!--Barra de lanches-->
+        <section class="itens">
+            <!--Lanches-cardapio-->
+            <div class="barra-item">
+                <h1>Lanches</h1>
+                <button id="action-btn" class="botao-menu">
+                    <i class="bi bi-caret-down-square-fill"></i>
+                </button></div>
+            <div class="containers" id="container">
+
+                <!--Cards-pratos-->
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/1-lanche.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Lanche</h1>
+                            <p>(ovo, alface, presuntos, queijo, alface)</p>
+                            <h1>R$ 25,00</h1>
+                        </div>
+                    </div>  
+                     
+            </div>
+        </section>
+
+        <!--Barra de pastéis-->
+        <section class="itens">
+            <!--Pastéis-cardapio-->
+            <div class="barra-item">
+                <h1>Pastéis</h1>
+                <button id="action-btn2" class="botao-menu">
+                    <i class="bi bi-caret-down-square-fill"></i>
+                </button>
+            </div>
+            <div class="containers" id="container2">
+
+                <!--Cards-pratos-->
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/2-pastel.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Pastél</h1>
+                            <p>(carne moida, azeitona, queijo)</p>
+                            <h1>R$ 15,00</h1>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </section>
+
+        <!--Barra de bebidas-->
+        <section class="itens">
+            <!--Bebidas-cardapio-->
+            <div class="barra-item">
+                <h1>Bebidas</h1>
+                <button id="action-btn3" class="botao-menu">
+                    <i class="bi bi-caret-down-square-fill"></i>
+                </button>
+            </div>
+            <div class="containers" id="container3">
+
+                <!--Cards-bebidas-->
+                <div class="cards">
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/3-guarana.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Bebida</h1>
+                            <p>(guaraná antartida)</p>
+                            <h1>R$ 3,50</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/3-guarana.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Bebida</h1>
+                            <p>(guaraná antartida)</p>
+                            <h1>R$ 3,50</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/3-guarana.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Bebida</h1>
+                            <p>(guaraná antartida)</p>
+                            <h1>R$ 3,50</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/3-guarana.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Bebida</h1>
+                            <p>(guaraná antartida)</p>
+                            <h1>R$ 3,50</h1>
+                        </div>
+                    </div> 
+
+                    <div class="card">
+                        <img src="/imagens/cliente-img/lanchonete/3-guarana.jpg" alt="x-salada">
+                        <div class="descricao">
+                            <h1>Bebida</h1>
+                            <p>(guaraná antartida)</p>
+                            <h1>R$ 3,50</h1>
+                        </div>
+                    </div> 
+                
+            </div>
+        </section>
+
+        <!--Botão do whatsapp-->
+        <div class="botao">
+            <a href="#" target="_blank">
+                <button>
+                    <span>whatsapp</span>
+                    <i class="bi bi-whatsapp"></i>
+                </button>
+            </a>
+        </div>
+
+    </main>
+
+    <!--Pés da página-->
+    <footer>
+        <p class="creditos">Desenvolvido por <strong>codnome tecnologia</strong><br> &#169;Todos os direitos reservados</p>
+    </footer>
+
+    <!--Script da página-->
+    <script src="/script/script.js"></script>
+    <script src="/script/itens.js" defer></script>
+    <script src="/script/funcaohora.js" defer></script>
+</body>
+</html>
