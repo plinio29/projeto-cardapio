@@ -134,6 +134,7 @@ main .perfil .funcionamento #funcao{
 main .perfil .funcionamento #funcao h1{
     color: #1e7916;
     font-size: 1em;
+    font-weight: 600;
 }
 
 main .perfil .funcionamento #funcao i{
@@ -153,6 +154,7 @@ main .perfil .funcionamento #funcao2{
 main .perfil .funcionamento #funcao2 h1{
     color: #791616;
     font-size: 1em;
+    font-weight: 600;
 }
 
 main .perfil .funcionamento #funcao2 i{
