@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*Página padrão lanches*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -101,7 +103,7 @@ main .perfil img{
 main .perfil h1{
     color: #ffff;
     font-size: 2em;
-    font-weight: 570;
+    font-weight: 590;
 }
 
 main .perfil p{
@@ -196,7 +198,7 @@ main .itens .barra-item{
 
 main .itens .barra-item h1{
     color: #ffffff;
-    font-weight: 570;
+    font-weight: 590;
 }
 
 main .itens .containers{
@@ -227,7 +229,7 @@ main .itens .containers .cards .card{
     transition: 0.1s;
     display: flex;
     border-bottom: solid 3px;
-    border-color: #acabab;
+    border-color: #b8b7b7;
 }
 main .itens .containers .cards .card:hover{
     transform: scale(1.05);
@@ -252,7 +254,7 @@ main .itens .containers .cards .card h1{
     font-size: 1.2em;
     padding-left: 2px;
     padding-right: 2px;
-    font-weight: 570;
+    font-weight: 590;
 }
 
 main .itens .containers .cards .card p{

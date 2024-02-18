@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*Página padrão Acaiteria*/
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -41,14 +44,14 @@ header .menu-cabeca a{
     text-decoration: none;
     display: flex;
     padding: 10px;
-    transition: 0.2s;
+    transition: 0.1s;
     border-radius: 5px;
     font-size: 1.2em;
     gap: 0.5em;
 }
 
 header .menu-cabeca a:hover{
-    background-color: #5e60ce;
+    background-color: #480ca8;
     color: #ffff;
 }
 
@@ -78,7 +81,7 @@ main{
 
 main .apresentacao{
     padding-top: 70px;
-    background-image: linear-gradient( to right, #6930c3, #5e60ce);
+    background-image: linear-gradient( to right, #480ca8, #7209b7);
     /*background-color: #d81b3b;*/
     width: 100%;
     padding-bottom: 20px;
@@ -101,6 +104,7 @@ main .perfil img{
 main .perfil h1{
     color: #ffff;
     font-size: 2em;
+    font-weight: 590;
 }
 
 main .perfil p{
@@ -195,6 +199,7 @@ main .itens .barra-item{
 
 main .itens .barra-item h1{
     color: #ffffff;
+    font-weight: 590;
 }
 
 main .itens .containers{
@@ -211,31 +216,33 @@ main .itens .containers .cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
     width: 85%;
     margin: auto;
+    align-items: center;
 }
 
 main .itens .containers .cards .card{
     cursor: pointer;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ffff;
     width: 48%;
-    height: 120px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 9px #2322249a;
-    transition: 0.2s;
+    transition: 0.1s;
     display: flex;
+    border-bottom: solid 3px;
+    border-color: #b8b7b7;
 }
 main .itens .containers .cards .card:hover{
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
 
 main .itens .containers .cards .card img{
     width: 150px;
     height: 100%;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 main .itens .containers .cards .card .descricao{
@@ -244,12 +251,11 @@ main .itens .containers .cards .card .descricao{
 }
 
 main .itens .containers .cards .card h1{
-    color: #4d4d4d;
-    font-size: 1.1em;
-    margin-top: 6px;
+    color: #292828;
+    font-size: 1.2em;
     padding-left: 2px;
     padding-right: 2px;
-    font-weight: 500;
+    font-weight: 590;
 }
 
 main .itens .containers .cards .card p{
@@ -257,8 +263,8 @@ main .itens .containers .cards .card p{
     font-size: 0.9em;
     text-align: center;
     max-width: 98%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 6px;
     padding-right: 6px;
 
@@ -279,11 +285,11 @@ main .botao button{
     box-shadow: 2px 2px 5px #23222471;
     color: #ffff;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 main .botao button:hover{
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
 main .itens .barra-item .botao-menu{
@@ -292,7 +298,7 @@ main .itens .barra-item .botao-menu{
     color: #ffff;
     cursor: pointer;
     font-size: 1.5em;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 main .itens .barra-item .botao-menu:hover{
@@ -362,17 +368,13 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 5px;
     }
     
     main .itens .containers .cards .card{
         cursor: pointer;
         text-align: center;
-        background-color: #ffffff;
         width: 95%;
-        height: 120px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 9px #2322249a;
         transition: 0.2s;
         display: flex;
     }
@@ -453,7 +455,7 @@ footer{
     .menu-cabeca a{
        padding: 20px 0;
        margin: 0 40px;
-       border-bottom: 2px solid #5e60ce;
+       border-bottom: 2px solid #480ca8;
     }
 
     header .menu-cabeca a p{
@@ -491,18 +493,14 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 5px;
         width: 100%;
     }
     
     main .itens .containers .cards .card{
         cursor: pointer;
         text-align: center;
-        background-color: #ffffff;
         width: 95%;
-        height: 120px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 9px #2322249a;
         transition: 0.2s;
         display: flex;
     }
