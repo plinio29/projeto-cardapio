@@ -51,7 +51,7 @@ header .menu-cabeca a{
 }
 
 header .menu-cabeca a:hover{
-    background-color: #ffc300;
+    background-color: #ffd000;
     color: #ffff;
 }
 
@@ -457,7 +457,7 @@ footer{
     .menu-cabeca a{
        padding: 20px 0;
        margin: 0 40px;
-       border-bottom: 2px solid #ffc300;
+       border-bottom: 2px solid #ffd000;
     }
 
     header .menu-cabeca a p{
