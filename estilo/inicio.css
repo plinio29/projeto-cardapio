@@ -48,7 +48,8 @@ header .menu-cabeca a{
 }
 
 header .menu-cabeca a:hover{
-    background-color: #d81b3b;
+    background-color: #797979;
+    /*background-color: #d81b3b;*/
     color: #ffff;
 }
 
@@ -78,8 +79,8 @@ main{
 
 main .apresentacao{
     padding-top: 70px;
-    background-image: linear-gradient( to right, #d81b3b, #ff7a3d);
-    /*background-color: #d81b3b;*/
+    /*background-image: linear-gradient( to right, #d81b3b, #ff7a3d);*/
+    background-color: #1f1e1e;
     width: 100%;
     height: 50vh;
     padding-bottom: 20px;
@@ -230,7 +231,7 @@ main .contratos .cards .card .plano{
 }
 
 main .contratos .cards .card h1{
-    font-size: 2.5em;
+    font-size: 3em;
     color: #ffff;
 }
 
@@ -380,7 +381,7 @@ footer{
     .menu-cabeca a{
        padding: 20px 0;
        margin: 0 40px;
-       border-bottom: 2px solid #d81b3b;
+       border-bottom: 2px solid #797979;;
     }
 
     header .menu-cabeca a p{
