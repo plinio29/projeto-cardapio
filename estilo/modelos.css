@@ -133,6 +133,19 @@ footer{
     color: #cfcfcf;
 }
 
+@media screen and (max-width: 800px){
+
+    main .modelos .cards{
+        padding-top: 70px;
+        width: 95%;
+        gap: 20px;
+    }
+
+    main .modelos .cards .card img{
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 600px){
     /*Cabeça do site*/
     /*Config Botão*/
@@ -213,5 +226,14 @@ footer{
         display: flex;
     }
 
+    main .modelos .cards{
+        padding-top: 70px;
+        width: 95%;
+        gap: 15px;
+    }
+
+    main .modelos .cards .card img{
+        width: 170px;
+    }
 }
 
