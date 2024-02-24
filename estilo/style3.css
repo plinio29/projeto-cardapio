@@ -231,7 +231,7 @@ main .itens .containers .cards .card{
     width: 48%;
     transition: 0.1s;
     display: flex;
-    border-bottom: solid 3px;
+    border-bottom: solid 2.5px;
     border-color: #b8b7b7;
 }
 main .itens .containers .cards .card:hover{
