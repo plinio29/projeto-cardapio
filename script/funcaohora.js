@@ -4,12 +4,20 @@ var funcao2 = document.getElementById('funcao2');
 
 var data = new Date()
 var hora = data.getHours()
+var dia = data.getDay()
 
 
-if (hora > 1 && hora < 17){
+if (hora >= 2 && hora < 17 ){
     funcao2.style.display = "block";
-} else if (hora > 17 && hora < 25){
+}else if (hora >= 17 && hora >= 24 && hora == 1){
+    funcao1.style.display = "block";  
+}else if (hora == 1){
     funcao1.style.display = "block";
+}else if (dia == 1){
+    funcao2.style.display = "block";
 } else {
-    console.log("Erro!");
+    console.log("Hoje é dia", dia);
+    console.log("A hora é", hora);
 }
+
+//(dia) Domingo é igual a 1
