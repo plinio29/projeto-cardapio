@@ -7,13 +7,13 @@ var hora = data.getHours()
 var dia = data.getDay()
 
 
-if (hora > 1 && hora < 17 ){
+if (hora > 0 && hora < 17 && dia || 0){
     funcao2.style.display = "block";
-}else if (hora > 16 && hora < 26 ){
-    funcao1.style.display = "block";  
-} else if (dia == 1 && hora > 1){
-    funcao2.style.display = "block";
-} else {
+
+}else if (hora > 0 && dia == 0){
+        funcao2.style.display = "block"; 
+}else{
+    funcao1.style.display = "block";
     console.log("Hoje é dia", dia);
     console.log("A hora é", hora);
 }
