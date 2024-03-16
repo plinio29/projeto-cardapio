@@ -15,11 +15,49 @@ var dia = data.getDay()
 
 switch(dia){
     case 0:
-        document.alert("oi");
+        funcao1.style.display = "block";
+        break
+    case 1:
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
+        break
+    case 2:
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
+        break
+    case 3:
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
+        break
+    case 4:
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
+        break
+    case 5:
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
         break
     case 6:
-        funcao1.style.display = "block";
-        document.alert("oi6");
+        if (hora > 0 && hora < 17){
+            funcao1.style.display = "block";
+        }else{
+            funcao2.style.display = "block";
+        }
         break
     default:
         window.alert("32");
