@@ -6,14 +6,61 @@ var data = new Date()
 var hora = data.getHours()
 var dia = data.getDay()
 
+//Fechado
+//funcao2.style.display = "block";
 
-if (hora > 0 && hora < 17){
-    funcao2.style.display = "block";
+//Aberto
+//funcao1.style.display = "block"; 
 
-}else{
-    funcao1.style.display = "block"; 
-    console.log("Hoje é dia", dia);
-    console.log("A hora é", hora);
+
+switch(dia){
+    case 0:
+        funcao2.style.display = "block";
+        break
+    case 1:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    case 2:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    case 3:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    case 4:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    case 5:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    case 6:
+        if (hora > 0 && hora < 17){
+            funcao2.style.display = "block";
+        }else{
+            funcao1.style.display = "block";
+        }
+        break
+    default:
+        funcao2.style.display = "block";
+        break
 }
-
-//(dia) Domingo é igual a 1
+//(dia) Domingo é igual a 0
