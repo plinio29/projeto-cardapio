@@ -74,13 +74,13 @@ header nav #botao-mobile{
 }
 
 main{
-    background-color: #ebeae7;
+    background-color: #1f1e1e;
 }
 
 main .apresentacao{
     padding-top: 70px;
     /*background-image: linear-gradient( to right, #d81b3b, #ff7a3d);*/
-    background-color: #1f1e1e;
+    background-color: #ebeae7;
     width: 100%;
     height: 50vh;
     padding-bottom: 20px;
@@ -100,7 +100,7 @@ main .apresentacao .chamativo{
 }
 
 main .apresentacao .chamativo h1{
-    color: #ffff;
+    color: #1f1e1e;
     font-size: 1.8em;
     font-weight: 590;
 }
@@ -115,10 +115,10 @@ main .apresentacao .chamativo a button{
     border-radius: 10px;
     padding: 10px;
     margin-top: 30px;
-    color: #1f1e1e;
+    color: #ffff;
     transition: 0.2s;
     cursor: pointer;
-    background-color: #ffff;
+    background-color: #1f1e1e;
     box-shadow: 2px 2px 5px #23222471;
 }
 
@@ -148,7 +148,7 @@ main .corpo .modelos h1{
     font-size: 2.5em;
     text-align: left;
     font-weight: 590;
-    color: #1f1e1e;
+    color: #ffff;
 } 
 
 main .corpo .modelos .corpo-img{
@@ -166,10 +166,10 @@ main .corpo .modelos .modelos-btn a button{
     border-radius: 10px;
     padding: 15px 30px;
     margin-top: 30px;
-    color: #ffffff;
+    color: #1f1e1e;
     transition: 0.2s;
     cursor: pointer;
-    background-color: #1f1e1e;
+    background-color: #ffff;
     box-shadow: 2px 2px 5px #23222471;
     margin-bottom: 100px;
     display: block;
@@ -196,14 +196,14 @@ main .corpo a button:hover{
 
 main .contratos{
     padding-bottom: 100px;
-    background-color: #292929;
+    background-color: #ebeae7;
 }
 
 main .contratos h1{
-    color: #ffff;
+    color: #1f1e1e;
     font-size: 2em;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 75px;
     margin-bottom: 75px;
 }
 
