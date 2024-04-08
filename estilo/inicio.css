@@ -181,10 +181,10 @@ main .corpo a button{
     border-radius: 10px;
     padding: 15px 50px;
     margin-top: 30px;
-    color: #ffffff;
+    color: #1f1e1e;
     transition: 0.2s;
     cursor: pointer;
-    background-color: #1f1e1e;
+    background-color: #ffff;
     box-shadow: 2px 2px 5px #23222471;
     margin-bottom: 100px;
     display: none;
@@ -393,7 +393,7 @@ footer{
     }
 
     main .apresentacao .chamativo h1{
-        color: #ffff;
+        color: #1f1e1e;
         font-size: 1.8em;
         font-weight: 590;
     }
